@@ -20,6 +20,16 @@ public class Person {
 		return this.age;
 	}
 	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public void setAget(int age) {
+		this.age = age;
+	}
+	
 	public String toString() {
 		String fullName = this.getName() + " " + this.getLastName();
 		

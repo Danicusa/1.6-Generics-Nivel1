@@ -1,9 +1,9 @@
 package tascas106level1ex1;
 
 public class NoGenericMethods {
-	String arg1;
-	String arg2;
-	String arg3;
+	private String arg1;
+	private String arg2;
+	private String arg3;
 	
 	public NoGenericMethods(String arg1, String arg2, String arg3) {
 		this.arg1 = arg1;
